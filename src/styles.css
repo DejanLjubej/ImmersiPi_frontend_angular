@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+footer {
+  bottom: 0;
+  padding: 19px 15px 20px;
+  position: relative;
+  left: 0;
+  color:  #98a6ad;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px rgba(50,58,70,.1);
+  width: 100%;
+}
+

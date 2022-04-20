@@ -1,0 +1,48 @@
+.fixed-top-right{
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+.fixed-top-left{
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+.brand-text{
+  font-family: Cursive,  Monospace, Fantasy;
+  font-weight: 1000;
+  color: transparent;
+  text-shadow: 0 0 3px white, 0 0 50px blue;
+
+}
+
+.brand-text.active{
+  text-shadow: 0 0 3px white, 0 0 50px green;
+}
+
+@keyframes showNavbar{
+  from{top:-50px}
+  to{top:0}
+}
+
+.hidden-navbar.fixed-navbar{
+  position: fixed;
+  width:100%;
+  z-index:999;
+  top:0px;
+  display: flex;
+  animation-name: showNavbar;
+  animation-duration: 500ms;
+}
+.hidden-navbar{
+  display: none;
+}
+
+.logo-img{
+  width:50px
+}
+
+.main-navigation-item{
+  margin:0 5px;
+}

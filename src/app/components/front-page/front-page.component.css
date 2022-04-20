@@ -1,0 +1,57 @@
+
+
+.app-banner{
+  position: relative;
+  z-index: 10;
+}
+.app-banner-item{
+  position: absolute;
+  right: 10%;
+  bottom: 50px;
+  margin: 5px 5px;
+}
+
+.app-banner-item a img{
+  max-width: 400px;
+}
+
+@media screen and (max-width:1024px) {
+  .app-banner-item{
+    max-width: 200px;
+    margin: 2px 2px;
+    bottom: 40px;
+  }
+
+  .app-banner-item a img{
+    max-width: 200px;;
+  }
+}
+
+@media screen and (max-width:640px) {
+
+  .app-banner{
+    flex-wrap: wrap;
+    right: 10px;
+    bottom: 15px;
+  }
+  .app-banner-item{
+    max-width: 100%;
+    bottom: 0;
+  }
+
+  .app-banner-item a img{
+    max-width: 150px;
+    margin-right:0;
+  }
+}
+
+.main-header-img{
+  position:relative;
+  overflow:hidden;
+  display:block;
+  padding:0;
+}
+
+/* p{
+  overflow: hidden;
+} */

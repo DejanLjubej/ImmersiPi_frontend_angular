@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { HostListener } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -17,9 +16,11 @@ export class NavbarComponent implements OnInit {
     {url: "studio", name:"Studio"},
     {url: "news", name:"News"},
   ];
-  constructor() { }
+  constructor() { /* TODO document why this constructor is empty */  }
 
   ngOnInit(): void {
+    // TODO document why this method 'ngOnInit' is empty
+
   }
 
   @HostListener('window:scroll',[]) onWindowScroll(){

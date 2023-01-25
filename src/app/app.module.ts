@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FrontPageComponent } from './components/front-page/front-page.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FooterUpperComponent } from './components/footer/footer-upper/footer-upper.component';
 
 @NgModule({
   declarations:
@@ -19,7 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
     NavbarComponent,
     FrontPageComponent,
     PageNotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    FooterUpperComponent
   ],
   imports:
   [

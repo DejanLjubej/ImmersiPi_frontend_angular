@@ -13,7 +13,7 @@ export class BallArtApiService {
 
 
 
-  getUsers():Observable<any[]>{
-    return this.httpClient.get<any>(this.ballArtApiUrl+ 'users');
+  getUsers(){
+    return this.httpClient.get<any>(this.ballArtApiUrl+ 'users/user/08da164e-a8bd-4d45-8cc0-c9ec8ec8a4f4');
   }
 }

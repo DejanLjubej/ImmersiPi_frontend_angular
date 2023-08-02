@@ -12,6 +12,7 @@ import { FrontPageComponent } from './components/front-page/front-page.component
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FooterUpperComponent } from './components/footer/footer-upper/footer-upper.component';
+import { FeaturedGameComponent } from './components/front-page/featured-game/featured-game.component';
 
 @NgModule({
   declarations:
@@ -21,7 +22,8 @@ import { FooterUpperComponent } from './components/footer/footer-upper/footer-up
     FrontPageComponent,
     PageNotFoundComponent,
     FooterComponent,
-    FooterUpperComponent
+    FooterUpperComponent,
+    FeaturedGameComponent,
   ],
   imports:
   [

@@ -8,10 +8,16 @@ import { BallArtApiService } from '../../services/ball-art-api.service';
 })
 export class PageNotFoundComponent implements OnInit {
 
-  constructor(babapi: BallArtApiService) { }
+  usersList;
+  constructor(private babapi: BallArtApiService) { }
 
   ngOnInit(): void {
+    this.babapi.getUsers().subscribe((data)=>{
+      console.log(data);
+      this.usersList = JSON.stringify(data, null , 20);
+      console.log(this.usersList);
 
+    })
   }
 
 }

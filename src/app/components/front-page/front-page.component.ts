@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FeaturedGameComponent } from './featured-game/featured-game.component';
 
 @Component({
   selector: 'app-front-page',

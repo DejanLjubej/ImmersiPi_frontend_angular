@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+footer {
+  bottom: 0;
+  padding: 19px 15px 20px;
+  position: relative;
+  left: 0;
+  color: #98a6ad;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px rgba(50, 58, 70, 0.1);
+  width: 100%;
+}
+
+@media (max-width: 4096px) {
+  p {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 2048px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app-banner-item {
+    max-width: 200px;
+    margin: 2px 2px;
+    bottom: 40px;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .app-banner-item a img {
+    max-width: 200px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-banner {
+    flex-wrap: wrap;
+    right: 10px;
+    bottom: 15px;
+  }
+  .app-banner-item {
+    max-width: 100%;
+    bottom: 0;
+  }
+
+  .app-banner-item a img {
+    max-width: 150px !important;
+    margin-right: 0;
+  }
+}
+
+.brand-text {
+  font-family: Cursive, Monospace, Fantasy;
+  color: black;
+}

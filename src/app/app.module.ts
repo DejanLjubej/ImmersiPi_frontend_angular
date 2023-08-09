@@ -15,8 +15,7 @@ import { FooterUpperComponent } from './components/footer/footer-upper/footer-up
 import { FeaturedGameComponent } from './components/front-page/featured-game/featured-game.component';
 
 @NgModule({
-  declarations:
-  [
+  declarations: [
     AppComponent,
     NavbarComponent,
     FrontPageComponent,
@@ -25,15 +24,14 @@ import { FeaturedGameComponent } from './components/front-page/featured-game/fea
     FooterUpperComponent,
     FeaturedGameComponent,
   ],
-  imports:
-  [
+  imports: [
     RoutingModule,
     BrowserModule,
     HttpClientModule,
     NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

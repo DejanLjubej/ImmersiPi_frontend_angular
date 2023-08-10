@@ -1,16 +1,12 @@
-.app-banner {
+ .app-banner {
   position: relative;
   z-index: 10;
 }
 .app-banner-item {
   position: absolute;
   right: 10%;
-  bottom: 50px;
+  bottom: 0rem;
   margin: 5px 5px;
-}
-
-.app-banner-item a img {
-  max-width: 400px;
 }
 
 .main-header-img {
@@ -19,6 +15,7 @@
   display: block;
   padding: 0;
 }
+
 
 /* p{
   overflow: hidden;

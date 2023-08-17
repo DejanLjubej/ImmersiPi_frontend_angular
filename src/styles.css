@@ -11,15 +11,13 @@ footer {
   width: 100%;
 }
 
-@media screen and (max-width: 4096px) {
-  p {
-    font-size: 5rem ;
-  }
+p {
+  font-size: 1.75rem ;
 }
 
 @media screen and (max-width: 2048px) {
   p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .app-banner-item a img {
@@ -28,29 +26,19 @@ footer {
 }
 
 @media (max-width: 1024px) {
-  /* .app-banner-item {
-    max-width: 200px;
-    margin: 2px 2px;
-    bottom: 40px;
-  } */
   p {
     font-size: 1rem;
   }
+
   .app-banner-item a img {
     max-width: 200px;
   }
 }
 
 @media (max-width: 640px) {
-  /* .app-banner {
-    flex-wrap: wrap;
-    right: 10px;
-    bottom: -15px;
-  } */
-  /* .app-banner-item {
-    max-width: 100%;
-    bottom: 0;
-  } */
+  p {
+    font-size: 1rem;
+  }
 
   .app-banner-item a img {
     max-width: 150px ;
@@ -58,18 +46,8 @@ footer {
   }
 }
 @media (max-width: 480px) {
-  /* .app-banner {
-    flex-wrap: wrap;
-    right: 7px;
-    bottom: -20px;
-  }
-  .app-banner-item {
-    max-width: 100%;
-    bottom: 0;
-  } */
-
   .app-banner-item a img {
-    max-width: 150px;
+    max-width: 125px;
     margin-right: 0;
   }
 }
@@ -78,3 +56,5 @@ footer {
   font-family: Cursive, Monospace, Fantasy;
   color: black;
 }
+
+

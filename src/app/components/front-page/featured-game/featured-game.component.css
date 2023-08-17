@@ -1,0 +1,28 @@
+.mainCard{
+  transform: matrix3d(
+    1, 0, 0, 0.00005,
+    0, 1, 0, -0.00014,
+    0, 0, 1, 0,
+    0, 0, 0, 1.1
+  );
+}
+
+.mainCard p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.mainCard h5{
+  font-size: 2.5rem;
+}
+
+.card-title-image-custom{
+  max-width: 70%;
+  position: absolute;
+  top: 20%
+}
+
+.card-body-custom{
+  width:100%;
+  background: linear-gradient(145deg, #806440, transparent);
+}

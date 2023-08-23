@@ -8,7 +8,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export class NavbarComponent implements OnInit {
   isNavbarCollapsed = true;
   isHomepageActive = true;
-  currentPosition = window.pageYOffset;
+  currentPosition = window.scrollY;
   scrollingUp = false;
   public navItems: any[] = [
     { url: 'games', name: 'Games' },
@@ -25,7 +25,7 @@ export class NavbarComponent implements OnInit {
 
   @HostListener('window:scroll', []) onWindowScroll() {
     const verticalOffset =
-      window.pageYOffset ||
+      window.scrollY ||
       document.documentElement.scrollTop ||
       document.body.scrollTop ||
       0;

@@ -13,6 +13,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { FooterComponent } from './components/footer/footer.component';
 import { FooterUpperComponent } from './components/footer/footer-upper/footer-upper.component';
 import { FeaturedGameComponent } from './components/front-page/featured-game/featured-game.component';
+import { GamesPageComponent } from './components/games-page/games-page.component';
+import { PageUnderConstructionComponent } from './components/page-under-construction/page-under-construction.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { FeaturedGameComponent } from './components/front-page/featured-game/fea
     FooterComponent,
     FooterUpperComponent,
     FeaturedGameComponent,
+    GamesPageComponent,
+    PageUnderConstructionComponent,
   ],
   imports: [
     RoutingModule,

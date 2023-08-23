@@ -1,0 +1,42 @@
+.flag-row {
+  display: flex;
+  align-items: stretch;
+  margin: 1rem 0;
+}
+
+.flag-image {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-top: 5px solid #ccc;
+  border-bottom: 5px solid #ccc;
+  transform-origin: top;
+}
+
+.flag-image img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.flag-text {
+  flex: 2;
+  padding: 1rem;
+  background-color: #fff;
+  border-top: 5px solid #ccc;
+  border-bottom: 5px solid #ccc;
+  transform-origin: top;
+  text-align: center;
+}
+
+
+.flag-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.flag-text p {
+  font-size: 1rem;
+  color: #555;
+}

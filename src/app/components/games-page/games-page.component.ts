@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GamesPageComponent implements OnInit {
 
+  items: object[] = [,,,,];
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

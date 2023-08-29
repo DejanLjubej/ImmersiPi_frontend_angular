@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "immersipilandingdata"
+  },
+  "targets": {
+    "immersipilandingdata": {
+      "hosting": {
+        "ImmersiPiFrontend": [
+          "immersipilandingdata"
+        ]
+      }
+    }
+  }
+}

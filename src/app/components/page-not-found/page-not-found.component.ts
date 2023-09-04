@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BallArtApiService } from '../../services/ball-art-api.service';
+import { BallArtApiService } from '../../services/BallArtService/ball-art-api.service';
 
 @Component({
   selector: 'app-page-not-found',

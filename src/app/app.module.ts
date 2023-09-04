@@ -34,8 +34,8 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
   declarations: [
     AppComponent,
     NavbarComponent,
-    FrontPageComponent,
     PageNotFoundComponent,
+    FrontPageComponent,
     FooterComponent,
     FooterUpperComponent,
     FeaturedGameComponent,

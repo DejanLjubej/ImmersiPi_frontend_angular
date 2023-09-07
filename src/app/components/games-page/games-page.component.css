@@ -1,0 +1,29 @@
+.showcaseBackground{
+ background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  background-position: center;
+}
+
+.showcaseBackground .fetured{
+
+}
+
+@media screen and (min-width: 768px) {
+  .showcaseBackground{
+    height: 250px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+ .showcaseBackground{
+   height: 300px;
+ }
+}
+
+@media screen and (min-width: 1400px) {
+ .showcaseBackground{
+   height: 350px;
+ }
+}

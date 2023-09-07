@@ -1,36 +1,28 @@
 <div class="container p-4 m-auto">
   <div class="row">
 
-    <div  *ngFor="let i of items; first as isFirst" [ngClass]="isFirst ? 'col-xs-12 col-sm-8 col-lg-6 mt-2' : 'col-xs-12 col-sm-4 col-lg-3 mt-2'">
-      <img src="\assets\Images\bg_frame1.png" alt="" style="width: 100%; height: 100%;">
+    <div *ngFor="let i of products; first as isFirst" [ngClass]="isFirst ? 'col-xs-12 col-sm-8 col-lg-6 mt-2' : 'col-xs-12 col-sm-4 col-lg-3 mt-2'">
+      <div [ngClass]="isFirst ? 'feturedProduct' : ''" class="showcaseBackground"  [style.background-image]="'url(' + i.showcaseImageUrl +')'">
+          {{i.name}}
+          <div style="    position: relative;
+          top: 256px;
+          margin: auto;
+          border-radius: 12px/12px 0;
+          box-shadow: 1px 1px 5px 1px;
+          background: linear-gradient(271deg, #ffffffc9, #8b7442);">
+            {{i.description}}
+          </div>
+      </div>
+
     </div>
+
     <!-- <div class="col-xs-12 col-sm-8 col-lg-6">
       <img src="\assets\Images\bg_frame1.png" alt="" style="width: 100%; height: 100%;">
-
     </div>
+
     <div class="col-xs-12 col-sm-4 col-lg-3">
       <img src="\assets\Images\bg_frame1.png" alt="" style="width: 100%; height: 100%;">
-
-    </div>
-    <div class="col-xs-12 col-sm-4 col-lg-3">
-      <img src="\assets\Images\bg_frame1.png" alt="" style="width: 100%; height: 100%;">
-
-    </div>
-    <div class="col-xs-12 col-sm-4 col-lg-3">
-      <img src="\assets\Images\bg_frame1.png" alt="" style="width: 100%; height: 100%;">
-
-    </div>
-    <div class="col-xs-12 col-sm-4 col-lg-3">
-      <img src="\assets\Images\bg_frame1.png" alt="" style="width: 100%; height: 100%;">
-
-    </div>
-    <div class="col-xs-12 col-sm-4 col-lg-3">
-      <img src="\assets\Images\bg_frame1.png" alt="" style="width: 100%; height: 100%;">
-
-    </div>
-    <div class="col-xs-12 col-sm-4 col-lg-3">
-      <img src="\assets\Images\bg_frame1.png" alt="" style="width: 100%; height: 100%;">
-
     </div> -->
+
   </div>
 </div>

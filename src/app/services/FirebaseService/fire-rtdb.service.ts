@@ -9,11 +9,11 @@ import { ProductsData } from 'src/app/models/products-data.model';
 
 export class FireRTDBService {
 
-  private dbPath: string = '/products';
+  private dbPath: string = '/Projects';
 
   productsRef: AngularFireList<ProductsData>;
 
-  constructor(db: AngularFireDatabase) {
+  constructor(private db: AngularFireDatabase) {
     this.productsRef = db.list(this.dbPath);
   }
 

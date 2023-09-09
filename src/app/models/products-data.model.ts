@@ -4,5 +4,6 @@ export class ProductsData {
   description?: string;
   showcaseImageUrl: string;
   isFeatured:boolean;
+  primaryUrl:string;
 }
 

@@ -1,29 +1,40 @@
 .showcaseBackground{
  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
+  object-fit: cover;
   background-position: center;
+  width: 100%;
 }
 
-.showcaseBackground .fetured{
+.showcaseBackground .feturedProduct{
 
+}
+
+@media screen and (min-width: 320px) {
+  .showcaseBackground{
+    max-height: 170px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .showcaseBackground{
+    max-height: 70px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .showcaseBackground{
-    height: 250px;
+    max-height: 100px;
   }
 }
 
-
 @media screen and (min-width: 1200px) {
  .showcaseBackground{
-   height: 300px;
+    max-height: 125;
  }
 }
 
 @media screen and (min-width: 1400px) {
  .showcaseBackground{
-   height: 350px;
+   max-height: 145px;
  }
 }

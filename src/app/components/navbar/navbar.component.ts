@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
   currentPosition = window.scrollY;
   scrollingUp = false;
   public navItems: any[] = [
-    { url: 'games', name: 'Games' },
+    { url: 'products', name: 'Products' },
     { url: 'studio', name: 'Studio' },
     { url: 'news', name: 'News' },
   ];

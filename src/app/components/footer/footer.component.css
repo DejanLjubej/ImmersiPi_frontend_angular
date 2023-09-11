@@ -1,0 +1,11 @@
+.footer-text{
+  text-align: center;
+}
+
+.footer_upper{
+  background-color: transparent;
+  background-image: url('src/assets/images/download.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  overflow: hidden;
+}

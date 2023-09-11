@@ -11,7 +11,7 @@ import { PageUnderConstructionComponent } from '../components/page-under-constru
 const routes: Routes =
 [
   {path:'', component:FrontPageComponent},
-  {path:'games',component:GamesPageComponent},
+  {path:'products',component:GamesPageComponent},
   {path:'studio',component:PageUnderConstructionComponent},
   {path:'**', component:PageNotFoundComponent},
 ];

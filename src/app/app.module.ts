@@ -31,6 +31,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { ProductsComponent } from './components/front-page/products/products.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
+import { NewsPageComponent } from './components/front-page/news-page/news-page.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { AboutPageComponent } from './components/about-page/about-page.component
     PageUnderConstructionComponent,
     ProductsComponent,
     AboutPageComponent,
+    NewsPageComponent,
   ],
   imports: [
     RoutingModule,

@@ -14,6 +14,7 @@ const routes: Routes =
   {path:'', component:FrontPageComponent},
   {path:'products',component:GamesPageComponent},
   {path:'studio',component:AboutPageComponent},
+  {path:'news',component:PageUnderConstructionComponent},
   {path:'**', component:PageNotFoundComponent},
 ];
 

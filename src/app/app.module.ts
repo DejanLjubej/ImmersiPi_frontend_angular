@@ -18,6 +18,10 @@ import { FooterUpperComponent } from './components/footer/footer-upper/footer-up
 import { FeaturedGameComponent } from './components/front-page/featured-game/featured-game.component';
 import { GamesPageComponent } from './components/games-page/games-page.component';
 import { PageUnderConstructionComponent } from './components/page-under-construction/page-under-construction.component';
+import { ProductsComponent } from './components/front-page/products/products.component';
+import { AboutPageComponent } from './components/about-page/about-page.component';
+import { AboutPageComponentCard } from './components/front-page/about-page/about-page.component';
+import { NewsPageComponent } from './components/front-page/news-page/news-page.component';
 
 // Firebase
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
@@ -29,9 +33,6 @@ import { providePerformance,getPerformance } from '@angular/fire/performance';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
-import { ProductsComponent } from './components/front-page/products/products.component';
-import { AboutPageComponent } from './components/about-page/about-page.component';
-import { NewsPageComponent } from './components/front-page/news-page/news-page.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { NewsPageComponent } from './components/front-page/news-page/news-page.c
     PageUnderConstructionComponent,
     ProductsComponent,
     AboutPageComponent,
+    AboutPageComponentCard,
     NewsPageComponent,
   ],
   imports: [

@@ -30,6 +30,7 @@ import { providePerformance,getPerformance } from '@angular/fire/performance';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { ProductsComponent } from './components/front-page/products/products.component';
+import { AboutPageComponent } from './components/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ProductsComponent } from './components/front-page/products/products.com
     GamesPageComponent,
     PageUnderConstructionComponent,
     ProductsComponent,
+    AboutPageComponent,
   ],
   imports: [
     RoutingModule,

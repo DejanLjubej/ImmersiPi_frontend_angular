@@ -7,12 +7,13 @@ import { FrontPageComponent } from '../components/front-page/front-page.componen
 import { PageNotFoundComponent } from '../components/page-not-found/page-not-found.component';
 import { GamesPageComponent } from '../components/games-page/games-page.component';
 import { PageUnderConstructionComponent } from '../components/page-under-construction/page-under-construction.component';
+import { AboutPageComponent } from '../components/about-page/about-page.component';
 
 const routes: Routes =
 [
   {path:'', component:FrontPageComponent},
   {path:'products',component:GamesPageComponent},
-  {path:'studio',component:PageUnderConstructionComponent},
+  {path:'studio',component:AboutPageComponent},
   {path:'**', component:PageNotFoundComponent},
 ];
 
